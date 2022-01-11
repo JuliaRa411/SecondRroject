@@ -1,5 +1,6 @@
- 
+  
  .app{
+  display:block;
   background-image: url(image.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -18,8 +19,10 @@ color: white;
 }
 
 body {
- background-color: #ecce9b70;
-
+ background-color: #cab372b7;
+ display: block;
+ margin: 0;
+background-attachment: scroll;
 }
 
 input{
