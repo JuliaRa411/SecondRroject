@@ -1,27 +1,30 @@
   
  .app{
-  display:block;
-  background-image: url(image.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   background-image: url(image.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 400px;
   min-height: 100vh;
-  margin: 20px auto;
+  width: 400px;
+  margin: 0 auto;
+ 
+  
 }
 
 .containerText{
 color: white;
- display: flex;
+display: flex;
  justify-content: center;
  
 
 }
 
 body {
- background-color: #cab372b7;
- display: block;
- margin: 0;
+background-color: #cab372b7;
+margin: 0;
 background-attachment: scroll;
 }
 
@@ -66,6 +69,7 @@ li{
  color: white;
  background-color: #85830659;
  font-family: 'Montserrat', sans-serif;
+ margin: 0px 50px;
 }
 .crossed {
  text-decoration: line-through 3px rgba(230, 17, 17, 0.712);
@@ -84,5 +88,5 @@ margin: 0;
 }
 h1{
   font-family: 'Montserrat', sans-serif;
-  margin-top: 50px;
+  
 }
