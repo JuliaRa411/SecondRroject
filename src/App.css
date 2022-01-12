@@ -69,6 +69,7 @@ li{
 }
 .crossed {
  text-decoration: line-through 3px rgba(230, 17, 17, 0.712);
+ -webkit-text-decoration:line-through 3px rgba(230, 17, 17, 0.712);
  background-color: #f0f0f033;
 
 
